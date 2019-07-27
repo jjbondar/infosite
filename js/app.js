@@ -9,7 +9,7 @@ $(document).ready(function(){
             event.preventDefault();
 
             let hash = this.hash;
-
+            // Animate script
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
             }, 800, function(){
